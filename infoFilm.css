@@ -1,0 +1,53 @@
+body{
+    background-color: whitesmoke;
+    margin: 0;
+    padding: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.conteneur{
+    background-color: white;
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 10px 10px;
+    text-align: center;
+   overflow: auto;
+   display: flex;
+   flex-direction: column;
+}
+.boîte{
+    margin: 10px;
+} 
+
+.détails{
+    text-align: left;
+    margin: 1rem;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.détails img{
+    max-width: 12rem;
+    display: block;
+    margin: 0 auto;
+}
+
+a{
+    padding: 10px 15px;
+    border-radius: 5px;
+    border: none;
+    background-color: green;
+    color: white;
+    cursor: pointer;
+}
+.banger{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-items: center;
+}
